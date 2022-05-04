@@ -78,6 +78,24 @@
 # Do not use hard-coded foreign key IDs.
 # TODO!
 
+new_studio = Studio.new
+new_studio["name"] = "Warner Bros."
+
+new_actor = Actor.new
+new_actor["name"] = "Christian Bale"
+new_actor["name"] = "Michael Caine"
+new_actor["name"] = "Liam Neeson"
+new_actor["name"] = "Katie Holmes"
+new_actor["name"] = "Gary Oldman"
+new_actor["name"] = "Heath Ledger"
+new_actor["name"] = "Aaron Eckhart"
+new_actor["name"] = "Maggie Gyllenhaal"
+new_actor["name"] = "Tom Hardy"
+new_actor["name"] = "Joseph Gordon-Levitt"
+new_actor["name"] = "Anne Hathaway"
+
+
+
 # Prints a header for the movies output
 puts "Movies"
 puts "======"
