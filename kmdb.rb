@@ -266,7 +266,10 @@ puts "Movies"
 puts "======"
 puts ""
 
-puts Movie.all 
+for movies in Movie
+    puts "#{movie["title"]} #{movie["year_released"]} #{movie["rated"]}"
+end
+
 
 # Query the movies data and loop through the results to display the movies output.
 # TODO!
