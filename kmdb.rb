@@ -135,21 +135,21 @@ warner_bros = Studio.find_by({ "name" => "Warner Bros."})
 
 new_movie = Movie.new
 new_movie["title"] = "Batman Begins"
-new_movie["year_released"] = "2005"
+new_movie["year_released"] = 2005
 new_movie["rated"] = "PG-13"
 new_movie["studio_id"] = warner_bros["id"]
 new_movie.save
 
 new_movie2 = Movie.new
 new_movie2["title"] = "The Dark Knight"
-new_movie2["year_released"] = "2008"
+new_movie2["year_released"] = 2008
 new_movie2["rated"] = "PG-13"
 new_movie2["studio_id"] = warner_bros["id"]
 new_movie2.save
 
 new_movie3 = Movie.new
 new_movie3["title"] = "The Dark Knight Rises"
-new_movie3["year_released"] = "2012"
+new_movie3["year_released"] = 2012
 new_movie3["rated"] = "PG-13"
 new_movie3["studio_id"] = warner_bros["id"]
 new_movie3.save
