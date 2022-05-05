@@ -256,7 +256,6 @@ new_role15["actor_id"] = anne hathaway["id"]
 new_role15["character_name"] = "Selina Kyle"
 new_role15.save
 
-
 # Prints a header for the movies output
 puts "Movies"
 puts "======"
