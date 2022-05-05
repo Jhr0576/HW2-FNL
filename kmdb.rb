@@ -266,9 +266,20 @@ puts "Movies"
 puts "======"
 puts ""
 
-# for movies in Movie
-#    puts "#{movies["title]}"
-# end
+# puts Movie.all
+
+batman_movies = Movie.all 
+
+# puts batman_movies 
+
+
+
+for film in batman_movies
+    # get studio from the database, get studio name, update the code line below to print studio name
+    studio = Studio.find_by({"id" => film["studio_id"]})
+    # puts studio.inspect
+   puts "#{film["title"]} #{film["year_released"]} #{film["rated"]} #{studio["name"]}"
+end
 
 
 #final steps
@@ -281,6 +292,16 @@ puts ""
 puts "Top Cast"
 puts "========"
 puts ""
+
+roles = Role.all 
+
+for role in roles
+    # get studio from the database, get studio name, update the code line below to print studio name
+    movie = Movie.find_by({"id" => role["movie_id"]})
+    actor = Actor.find_by({"id" => role["actor_id"]})
+    # puts studio.inspect
+   puts "#{movie["title"]} #{actor["name"]} #{role["character_name"]}"
+end
 
 # Query the cast data and loop through the results to display the cast output for each movie.
 # TODO!
