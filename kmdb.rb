@@ -266,9 +266,9 @@ puts "Movies"
 puts "======"
 puts ""
 
-for movies in Movie
-    puts "#{movies["title]}"
-end
+# for movies in Movie
+#    puts "#{movies["title]}"
+# end
 
 
 #final steps
