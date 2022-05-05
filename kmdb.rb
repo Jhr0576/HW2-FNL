@@ -266,6 +266,8 @@ puts "Movies"
 puts "======"
 puts ""
 
+puts Movie.all 
+
 # Query the movies data and loop through the results to display the movies output.
 # TODO!
 
