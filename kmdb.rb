@@ -150,7 +150,7 @@ new_movie2.save
 new_movie3 = Movie.new
 new_movie3["title"] = "The Dark Knight Rises"
 new_movie3["year_released"] = "2012"
-new_movie3["rating"] = "PG-13"
+new_movie3["rated"] = "PG-13"
 new_movie3["studio_id"] = warner_bros["id"]
 new_movie3.save
 
