@@ -267,7 +267,7 @@ puts "======"
 puts ""
 
 for movies in Movie
-    puts "#{movie["title"]} #{movie["year_released"]} #{movie["rated"]}"
+    puts "#{movies["title"]}"
 end
 
 
