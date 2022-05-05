@@ -266,6 +266,11 @@ puts "Movies"
 puts "======"
 puts ""
 
+for movies in Movie
+    puts "#{movies["title]}"
+end
+
+
 #final steps
 
 # Query the movies data and loop through the results to display the movies output.
